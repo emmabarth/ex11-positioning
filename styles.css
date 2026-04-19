@@ -1,0 +1,96 @@
+html {
+    background-color: wheat;
+    color: black;
+}
+
+body {
+    max-width: 600px;
+    margin: 0px auto;
+
+}
+
+
+header {
+    padding: 10px 15px 0 15px;
+    margin: 50px 0 0 0;
+}
+
+main {
+    color: brown;
+    padding: 18px;
+    margin: 0px;
+    line-height: 2;
+}
+
+h1 {
+    color: blue;
+    font-family: "UnifrakturMaguntia", serif;
+    margin: 0 0 10px 0;
+}
+
+.site-nav {
+    background-color: blue;
+    padding: 0px;
+}
+
+.nav-link {
+    list-style-type: none;
+    
+    display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+
+    margin: 10px 0 0 0;
+    padding: 10px 0 10px 0;
+}
+
+.dropdown{
+    background-color: white;
+    list-style-type: none;
+    
+    position: absolute;
+        top: 100%;
+        left: 0;
+    display: none;
+    
+    margin: 10px 0 0 0;
+    padding: 15px 10px 15px 10px;
+    
+    box-shadow: 2px 2px 4px rgba(102, 0, 131, 0.5);
+    cursor: crosshair;
+    border-radius: 2px;
+}
+
+.dropdown-trigger{ 
+    position:relative
+}
+
+.dropdown-trigger:hover {
+    background-color: lightblue;
+    
+}
+
+.dropdown-trigger:hover .dropdown{
+    display: block;
+}
+
+code{ 
+    color: white;
+    background-color: black;
+    font-family: monospace;
+    font-size: 75%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a {
+    color: yellowgreen;
+}
+
+a:hover{
+        color: red;
+    }
+a:vistied {
+    color: yellowgreen;
+} 
